@@ -1,0 +1,48 @@
+{
+  "name": "my_vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "jest",
+    "unit": "jest --config test/unit/jest.conf.js --coverage"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.10",
+    "vue-router": "^4.0.0-beta.2",
+    "vuex": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@antv/g6": "^3.8.3",
+    "@babel/preset-env": "^7.11.5",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@types/jest": "^26.0.13",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "@vue/babel-plugin-jsx": "^1.0.0-rc.3",
+    "@vue/compiler-sfc": "^3.0.0-beta.15",
+    "@vue/test-utils": "^2.0.0-beta.4",
+    "babel-jest": "^26.3.0",
+    "sass": "1.27.0",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2",
+    "vite": "^1.0.0-beta.3",
+    "vue-jest": "^5.0.0-alpha.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.vue$": "vue-jest",
+      "^.+\\js$": "babel-jest",
+      "^.+\\.(t|j)sx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "vue",
+      "js",
+      "json",
+      "jsx",
+      "ts",
+      "tsx",
+      "node"
+    ]
+  }
+}
