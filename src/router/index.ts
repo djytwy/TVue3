@@ -1,7 +1,7 @@
 /*
  * @Date: 2020-11-02 15:53:09
- * @LastEditTime: 2020-11-02 17:21:58
- * @FilePath: /myVue3/src/router/index.ts
+ * @LastEditTime: 2020-12-29 00:00:38
+ * @FilePath: /TVue3-master/src/router/index.ts
  * @Author: twy
  * @LastEditors: twy
  */
@@ -15,10 +15,6 @@ const routes: RouteRecordRaw[] = [{
   path: '/testPage',
   name: 'testPage',
   component: () => import('../views/testPage.vue')
-},{
-  path: '/g6',
-  name: 'g6',
-  component: () => import('../views/g6.vue')
 }]
 
 const router = createRouter({

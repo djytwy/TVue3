@@ -1,7 +1,7 @@
 /*
  * @Date: 2020-11-02 15:55:10
- * @LastEditTime: 2020-11-03 12:08:38
- * @FilePath: /myVue3/vite.config.ts
+ * @LastEditTime: 2020-12-30 16:54:28
+ * @FilePath: /TVue3-master/vite.config.ts
  * @Author: twy
  * @LastEditors: twy
  */
@@ -17,7 +17,7 @@ const config: SharedConfig = {
         '/@/': pathResolve('.src')
     },
     optimizeDeps: {
-        include: ["echarts"]
+        include: ["element-plus"]
     }
 }
 
